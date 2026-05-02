@@ -43,7 +43,7 @@
         <div class="hero-grid">
             <div class="hero-left">
                 <h1 class="hero-title">Shamik<br><em>Vijay</em><br>Nagre.</h1>
-                <h2 class="hero-designation" style="font-family: var(--font-sans); font-size: 1.6rem; letter-spacing: 0.25em; color: var(--card-dark); margin-bottom: 2rem; font-weight: 800; text-transform: uppercase;">Software Engineer</h2>
+                <h2 class="hero-designation" style="font-family: var(--font-sans); font-size: 1.6rem; letter-spacing: 0.25em; color: var(--card-dark); margin-bottom: 2rem; font-weight: 800; text-trans: uppercase;">Software Engineer</h2>
                 
                 <p class="hero-quote">“I break software before it breaks your users.”</p>
                 <div class="hero-bio">
@@ -773,29 +773,31 @@
             <div class="contact-form-container card-light anim-hidden slide-angled-left">
                 <div class="card-label">SEND ME A MESSAGE</div>
                 <h3 style="font-size: 2.5rem; margin-bottom: 2rem;">Let's start a conversation.</h3>
-                <form action="https://formspree.io/f/xzdodzkb" method="post" enctype="text/plain" class="contact-form">
+                <form action="https://formspree.io/f/xzdodzkb" method="post" class="contact-form">
                     <div class="form-row">
                         <div class="form-group float-label-group">
-                            <input type="text" id="fname" required placeholder="Full Name">
+                            <input type="text" id="fname" name="name" required placeholder="Full Name">
                             <label for="fname">FULL NAME (e.g. Shamik Nagre)</label>
                             <div class="input-underline anim-hidden draw-line delay-1"></div>
                         </div>
                         <div class="form-group float-label-group">
-                            <input type="email" id="femail" required placeholder="Email">
+                            <input type="email" id="femail" name="email" required placeholder="Email">
                             <label for="femail">EMAIL ADDRESS</label>
                             <div class="input-underline anim-hidden draw-line delay-2"></div>
                         </div>
                     </div>
                     <div class="form-group float-label-group">
-                        <input type="text" id="fsub" required placeholder="Subject">
+                        <input type="text" id="fsub" name="subject" required placeholder="Subject">
                         <label for="fsub">SUBJECT</label>
                         <div class="input-underline anim-hidden draw-line delay-3"></div>
                     </div>
                     <div class="form-group float-label-group">
-                        <textarea rows="4" id="fmsg" required placeholder="Message"></textarea>
+                        <textarea rows="4" id="fmsg" name="message" required placeholder="Message"></textarea>
                         <label for="fmsg">MESSAGE</label>
                         <div class="input-underline anim-hidden draw-line delay-4"></div>
                     </div>
+                     <input type="hidden" name="_captcha" value="false">
+                     <input type="hidden" name="_next" value="https://shamik0221.github.io/Portfolio/">
                     <button type="submit" class="btn dark send-btn" style="padding: 1.2rem 2.5rem; font-size: 1.1rem; border-radius: 50px;"><i class="fa-regular fa-paper-plane" style="margin-right: 10px;"></i> Send Message</button>
                 </form>
             </div>
