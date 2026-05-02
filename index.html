@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shamik Vijay Nagre - Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="nav-brand">
+        <div class="logo-circle">SN</div>
+        <div class="logo-text">
+            <strong>Shamik V. Nagre</strong>
+            <span>PORTFOLIO</span>
+        </div>
+    </div>
+    <ul class="nav-links">
+        <li><a href="#hero" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta" style="background-color: var(--card-dark); color: var(--text-light); border: none;">Let's Talk</a>
+</nav>
+
+<div class="main-container">
+    <!-- HERO -->
+    <section id="hero" class="hero-section">
+        <div class="hero-top-bar">
+            <div class="tag-pill dark"><span class="dot"></span> SN · AVAILABLE FOR OPPORTUNITIES</div>
+        </div>
+        
+        <div class="hero-grid">
+            <div class="hero-left">
+                <h1 class="hero-title">Shamik<br><em>Vijay</em><br>Nagre.</h1>
+                <h2 class="hero-designation" style="font-family: var(--font-sans); font-size: 1.6rem; letter-spacing: 0.25em; color: var(--card-dark); margin-bottom: 2rem; font-weight: 800; text-transform: uppercase;">Software Engineer</h2>
+                
+                <p class="hero-quote">“I break software before it breaks your users.”</p>
+                <div class="hero-bio">
+                    <p>I'm Shamik, a Software Engineer with 4+ years of experience making sure the things people build actually work and work reliably. I've automated regression suites that slashed manual effort by 50%, hunted production defects in core banking systems, and stress-tested APIs that handle real money. My background spans fintech, banking platforms, and enterprise QA and right now I'm deepening my edge with an MSc in Software Engineering from the University of Hertfordshire.</p>
+                    <p>Good testing isn't just about finding bugs. It's about understanding systems deeply enough to know where they'll fail before they do. If you're shipping software where quality is non-negotiable, let's talk.</p>
+                </div>
+                <div class="hero-actions anim-hidden slide-up" id="hero-ctas">
+                    <a href="#about" class="btn dark">Learn More About Me &rarr;</a>
+                    <a href="#contact" class="btn outline">Get In Touch</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/Shamik0221" target="_blank" class="anim-hidden pop-bounce delay-1"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/shamiknagre/" target="_blank" class="anim-hidden pop-bounce delay-2"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="mailto:shamikvijaynagre@gmail.com" class="anim-hidden pop-bounce delay-3"><i class="fa-regular fa-envelope"></i></a>
+                </div>
+            </div>
+            
+            <div class="hero-right">
+                <div class="typewriter-container typewriter-right">
+                    <span id="typewriter-text" class="typewriter-text highlight-text"></span><span class="cursor">|</span>
+                </div>
+                <div class="hero-image-container">
+                    <div class="image-offset-bg"></div>
+                    <img src="pro_2.jpeg" alt="Shamik V. Nagre" class="hero-img float-anim" style="object-position: top center;" onerror="this.src='pro_1.jpeg'">
+                    <div class="float-tag top-right dark">
+                        <strong>MSc, Univ. of Hertfordshire</strong>
+                    </div>
+                    <div class="float-tag bottom-left light">
+                        <span class="tag-label">EXPERIENCE</span>
+                        <div class="tag-val">4+ <span class="serif">Years</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section-padding">
+        <div class="section-header">
+            <h2 class="section-title"><em>About</em> Me</h2>
+            <p class="section-subtitle">The engineer behind the work.</p>
+        </div>
+        
+        <div class="about-wrapper">
+            <div class="about-top-grid">
+                <div class="about-image-container">
+                    <div class="image-offset-bg"></div>
+                    <img src="pro_1.jpeg" alt="Shamik V. Nagre" class="about-img anim-hidden slide-right-bloom" style="object-position: top center;" onerror="this.src='pro_2.jpeg'">
+                </div>
+                
+                <div class="about-right">
+                    <div class="summary-card card-light hover-pop">
+                        <div class="card-label">PROFESSIONAL SUMMARY</div>
+                        <p class="summary-text">I live at the intersection of engineering rigour and product quality which is a rarer combination than it sounds in the QA world. Over 4+ years at Quality Kiosk Technologies, I've automated banking workflows, dismantled production defects in core financial systems, and mentored teams through high-stakes release cycles. My tools of choice are Selenium, Playwright, Java, and a genuinely diagnostic mindset. My MSc in Software Engineering is sharpening my understanding of scalable systems, low-latency design, and full-stack architecture. I don't just test software I understand how it's built, which makes me dangerous in the best possible way.</p>
+                    </div>
+                    <div class="mv-grid">
+                        <div class="mv-card dark hover-pop anim-hidden flip-in">
+                            <div class="mv-icon"><i class="fa-solid fa-bullseye"></i></div>
+                            <div class="mv-content">
+                                <div class="card-label" style="font-weight: 800; font-size: 0.9rem;">MISSION</div>
+                                <h3>What drives me</h3>
+                                <p>To ensure every line of code that reaches users has been tested with the same care it was written — because quality isn't a phase, it's a practice.</p>
+                            </div>
+                        </div>
+                        <div class="mv-card light hover-pop anim-hidden flip-in delay-2">
+                            <div class="mv-icon"><i class="fa-regular fa-eye"></i></div>
+                            <div class="mv-content">
+                                <div class="card-label" style="font-weight: 800; font-size: 0.9rem;">VISION</div>
+                                <h3>Where I'm headed</h3>
+                                <p>To build automation systems and QA frameworks that don't just catch bugs — but make the entire engineering process smarter, faster, and more trustworthy.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="work-menu horizontal card-light">
+                <div class="menu-label card-label" style="text-align: center; margin-bottom: 1rem; font-weight: 800; font-size: 0.9rem;">VIEW MY WORK</div>
+                <div class="menu-items-horizontal">
+                    <a href="#experience" class="menu-item anim-hidden slide-up delay-1"><i class="fa-solid fa-briefcase"></i> Work Experience</a>
+                    <a href="#education" class="menu-item anim-hidden slide-up delay-2"><i class="fa-solid fa-graduation-cap"></i> Education</a>
+                    <a href="#projects" class="menu-item anim-hidden slide-up delay-3"><i class="fa-solid fa-folder"></i> Projects</a>
+                    <a href="#skills" class="menu-item anim-hidden slide-up delay-4"><i class="fa-solid fa-wrench"></i> Skills</a>
+                    <a href="#certifications" class="menu-item anim-hidden slide-up delay-5"><i class="fa-solid fa-certificate"></i> Certifications</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section-padding">
+        <div class="section-header">
+            <h2 class="section-title"><em>Work</em> Experience</h2>
+            <p class="section-subtitle">Professional track record in quality assurance and automation.</p>
+        </div>
+        
+        <div class="projects-list">
+            <!-- Job 1 -->
+            <div class="project-card hover-pop hover-lift-shadow anim-hidden from-left">
+                <div class="project-left dark" style="justify-content: center; gap: 1.5rem; padding: 4rem;">
+                    <div class="project-tag" style="margin-bottom: 0;">
+                        <img src="QK.png" alt="QK Logo" class="company-logo pulse-glow-hover" style="height: 45px; margin-right: 12px; border-radius: 6px;" onerror="this.style.display='none'">
+                        QUALITY KIOSK TECHNOLOGIES
+                    </div>
+                    <h3 class="project-title" style="margin-bottom: 0; color: var(--text-light);">Senior Software Test Engineer</h3>
+                    <p class="project-type" style="margin-bottom: 0; color: var(--text-light); opacity: 0.9;"><i class="fa-solid fa-location-dot"></i> Mumbai, India · Full-time</p>
+                    <div class="project-date" style="margin-top: 0;"><i class="fa-regular fa-calendar"></i> April 2022 – December 2023</div>
+                </div>
+                <div class="project-right light">
+                    <div class="card-label">KEY RESPONSIBILITIES & ACHIEVEMENTS</div>
+                    <ul class="styled-list">
+                        <li class="anim-hidden stagger-bullet delay-1">Collaborated daily with developers, BAs, and UAT teams for defect triaging and prioritisation, reducing defect leakage by 30% in production.</li>
+                        <li class="anim-hidden stagger-bullet delay-2">Automated regression test suite using Selenium for modules including Payments, Authorisation Rules, IRIM Management, reducing manual test effort by 50%.</li>
+                        <li class="anim-hidden stagger-bullet delay-3">Ensured secure coding and testing practices in automation frameworks, optimising performance and maintainability.</li>
+                        <li class="anim-hidden stagger-bullet delay-4">Mentored junior testers on mobile application testing techniques, API testing best practices, and Agile processes.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Job 2 -->
+            <div class="project-card hover-pop hover-lift-shadow anim-hidden from-right">
+                <div class="project-left dark" style="justify-content: center; gap: 1.5rem; padding: 4rem;">
+                    <div class="project-tag" style="margin-bottom: 0;">
+                        <img src="QK.png" alt="QK Logo" class="company-logo pulse-glow-hover" style="height: 45px; margin-right: 12px; border-radius: 6px;" onerror="this.style.display='none'">
+                        QUALITY KIOSK TECHNOLOGIES
+                    </div>
+                    <h3 class="project-title" style="margin-bottom: 0; color: var(--text-light);">Software Test Engineer</h3>
+                    <p class="project-type" style="margin-bottom: 0; color: var(--text-light); opacity: 0.9;"><i class="fa-solid fa-location-dot"></i> Mumbai, India · Full-time</p>
+                    <div class="project-date" style="margin-top: 0;"><i class="fa-regular fa-calendar"></i> February 2020 – April 2022</div>
+                </div>
+                <div class="project-right light">
+                    <div class="card-label">KEY RESPONSIBILITIES & ACHIEVEMENTS</div>
+                    <ul class="styled-list">
+                        <li class="anim-hidden stagger-bullet delay-1">Improved settlement process verification efficiency by 25% through query optimisation and test data preparation.</li>
+                        <li class="anim-hidden stagger-bullet delay-2">Experienced in Functional Automation testing using Selenium, including Selenium framework development with JavaScript.</li>
+                        <li class="anim-hidden stagger-bullet delay-3">Designed and executed 500+ functional, regression, and API test cases for modules including Corporate Onboarding, Payments.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Job 3 -->
+            <div class="project-card hover-pop hover-lift-shadow anim-hidden from-left">
+                <div class="project-left dark" style="justify-content: center; gap: 1.5rem; padding: 4rem;">
+                    <div class="project-tag" style="margin-bottom: 0;">
+                        <img src="QK.png" alt="QK Logo" class="company-logo pulse-glow-hover" style="height: 45px; margin-right: 12px; border-radius: 6px;" onerror="this.style.display='none'">
+                        QUALITY KIOSK TECHNOLOGIES
+                    </div>
+                    <h3 class="project-title" style="margin-bottom: 0; color: var(--text-light);">Trainee Software Test Engineer</h3>
+                    <p class="project-type" style="margin-bottom: 0; color: var(--text-light); opacity: 0.9;"><i class="fa-solid fa-location-dot"></i> Mumbai, India · Full-time</p>
+                    <div class="project-date" style="margin-top: 0;"><i class="fa-regular fa-calendar"></i> October 2019 – January 2020</div>
+                </div>
+                <div class="project-right light">
+                    <div class="card-label">KEY RESPONSIBILITIES & ACHIEVEMENTS</div>
+                    <ul class="styled-list">
+                        <li class="anim-hidden stagger-bullet delay-1">Designed and executed functional test cases covering business-critical modules ensuring 100% coverage.</li>
+                        <li class="anim-hidden stagger-bullet delay-2">Reduced API testing efforts by 40% by automating manual Postman collections using Newman.</li>
+                        <li class="anim-hidden stagger-bullet delay-3">Performed database testing on DB2 on Linux-based systems via Putty; executed 300+ queries to validate financial data.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section-padding">
+        <div class="section-header">
+            <h2 class="section-title"><em>My</em> Education</h2>
+            <p class="section-subtitle">Academic foundations in engineering — now deepening with postgraduate study in software engineering.</p>
+        </div>
+        
+        <div class="edu-grid">
+            <div class="edu-card dark hover-pop anim-hidden drop-rotate-in">
+                <div class="border-trace"></div>
+                <div class="edu-card-top">
+                    <div class="edu-icon toss-on-hover"><i class="fa-solid fa-graduation-cap"></i></div>
+                    <span class="tag-pill" style="color: var(--text-light); border: 1px solid var(--text-light);">FULL-TIME</span>
+                </div>
+                <h3 class="edu-degree">
+                    <img src="UH.png" alt="UH Logo" class="edu-logo" onerror="this.style.display='none'"> 
+                    Master of Science, Software Engineering
+                </h3>
+                <p class="edu-uni">University of Hertfordshire, Hatfield, UK</p>
+                <div class="edu-meta">
+                    <span><i class="fa-regular fa-calendar"></i> January 2024 – September 2025</span>
+                    <span><i class="fa-solid fa-location-dot"></i> UK</span>
+                </div>
+                <div class="edu-highlights">
+                    <div class="card-label"><i class="fa-solid fa-book-open"></i> KEY HIGHLIGHTS</div>
+                    <ul>
+                        <li><span class="anim-hidden fade-in slide-up delay-1">Specialising in Software Engineering, Automated Testing, and System Design</span></li>
+                        <li><span class="anim-hidden fade-in slide-up delay-2">Focus on scalable software architecture, CI/CD practices, and low-latency systems</span></li>
+                        <li><span class="anim-hidden fade-in slide-up delay-3">Advanced coursework in Full-Stack Development, Machine Learning applications, and Security Engineering</span></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="edu-card light hover-pop anim-hidden rise-up-in">
+                <div class="border-trace gold"></div>
+                <div class="edu-card-top">
+                    <div class="edu-icon toss-on-hover"><i class="fa-solid fa-graduation-cap"></i></div>
+                    <span class="tag-pill dark" style="color: var(--text-light);">FULL-TIME</span>
+                </div>
+                <h3 class="edu-degree">
+                    <img src="SF.jpg" alt="SF Logo" class="edu-logo" onerror="this.style.display='none'"> 
+                    Bachelor of Engineering, Electronics and Telecommunication
+                </h3>
+                <p class="edu-uni">Savitribai Phule Pune University, Pune, India</p>
+                <div class="edu-meta">
+                    <span><i class="fa-regular fa-calendar"></i> June 2016 – July 2019</span>
+                    <span><i class="fa-solid fa-location-dot"></i> India</span>
+                </div>
+                <div class="edu-highlights">
+                    <div class="card-label"><i class="fa-solid fa-book-open"></i> KEY HIGHLIGHTS</div>
+                    <ul>
+                        <li><span class="anim-hidden fade-in slide-up delay-1">Core subjects: Digital Systems, Signal Processing, Communication Networks, and Embedded Systems</span></li>
+                        <li><span class="anim-hidden fade-in slide-up delay-2">Foundation in Programming, Database Systems, and Software Development</span></li>
+                        <li><span class="anim-hidden fade-in slide-up delay-3">Strong grounding in analytical thinking and systems-level problem solving</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section-padding">
+        <div class="section-header">
+            <h2 class="section-title"><em>Selected</em> Projects</h2>
+            <p class="section-subtitle">Real applications built end-to-end — from system design and code to automated testing and evaluation.</p>
+        </div>
+        
+        <div class="projects-list">
+            <!-- Project 1 -->
+            <div class="project-card project-card-hover anim-hidden from-left">
+                <div class="project-left dark" style="display: flex; flex-direction: column; padding: 4rem;">
+                    <div class="project-tag"><i class="fa-solid fa-hashtag"></i> PROJECT 01</div>
+                    
+                    <div style="flex-grow: 1; display: flex; align-items: center; padding: 2rem 0;">
+                        <h3 class="project-title title-expand-hover" style="font-family: var(--font-serif); font-size: 3rem; margin-bottom: 0; line-height: 1.2; color: var(--text-light);">A Comparative Study of Selenium and Playwrite on an Ecommerce Web Application</h3>
+                    </div>
+                    
+                    <div>
+                        <p class="project-type" style="margin-bottom: 0.5rem; opacity: 0.9;">Functional Automation Testing · Full-Stack Development</p>
+                        <div class="project-date" style="opacity: 0.8; margin-top: 0;"><i class="fa-regular fa-calendar"></i> March 2025 – May 2025</div>
+                    </div>
+                </div>
+                <div class="project-right light anim-hidden fade-in delay-3">
+                    <p class="project-desc">Built a full testing environment from scratch — a React and Firebase-based e-commerce web application — to run a rigorous head-to-head comparison of Selenium and Playwright as automation frameworks. This wasn't just a theory paper; every test case was designed, automated, and evaluated in a real working application.</p>
+                    <div class="card-label">KEY OUTCOMES</div>
+                    <div class="outcomes-grid">
+                        <div class="outcome-item hover-pop anim-hidden card-deal delay-1">
+                            <span class="num">1</span>
+                            <p>Designed and automated 40+ functional test cases using Selenium and Playwright in JavaScript with modular-based frameworks</p>
+                        </div>
+                        <div class="outcome-item hover-pop anim-hidden card-deal delay-2">
+                            <span class="num">2</span>
+                            <p>Built the testing environment itself — a React + Firebase app with authentication — ensuring realistic test conditions</p>
+                        </div>
+                        <div class="outcome-item hover-pop anim-hidden card-deal delay-3">
+                            <span class="num">3</span>
+                            <p>Strengthened practical knowledge of CI/CD alignment and test framework configuration strategies</p>
+                        </div>
+                        <div class="outcome-item hover-pop anim-hidden card-deal delay-4">
+                            <span class="num">4</span>
+                            <p>Applied secure coding principles and scalable architecture patterns during application development</p>
+                        </div>
+                    </div>
+                    <div class="card-label"><i class="fa-solid fa-code"></i> TECHNOLOGIES USED</div>
+                    <div class="tech-tags">
+                        <span class="tag-pill dark tech-shimmer anim-hidden elastic-pop delay-1">React.js</span>
+                        <span class="tag-pill dark tech-shimmer anim-hidden elastic-pop delay-2">Firebase</span>
+                        <span class="tag-pill dark tech-shimmer anim-hidden elastic-pop delay-3">Selenium</span>
+                        <span class="tag-pill dark tech-shimmer anim-hidden elastic-pop delay-4">Playwright</span>
+                        <span class="tag-pill dark tech-shimmer anim-hidden elastic-pop delay-5">JavaScript</span>
+                        <span class="tag-pill dark tech-shimmer anim-hidden elastic-pop delay-6">Git</span>
+                        <span class="tag-pill dark tech-shimmer anim-hidden elastic-pop delay-7">CI/CD</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card project-card-hover anim-hidden from-right">
+                <div class="project-left dark" style="display: flex; flex-direction: column; padding: 4rem;">
+                    <div class="project-tag"><i class="fa-solid fa-hashtag"></i> PROJECT 02</div>
+                    
+                    <div style="flex-grow: 1; display: flex; align-items: center; padding: 2rem 0;">
+                        <h3 class="project-title title-expand-hover" style="font-family: var(--font-serif); font-size: 3rem; margin-bottom: 0; line-height: 1.2; color: var(--text-light);">Java Application of Swimming Lesson Booking, Management and Reporting</h3>
+                    </div>
+                    
+                    <div>
+                        <p class="project-type" style="margin-bottom: 0.5rem; opacity: 0.9;">Object-Oriented Java Development · Unit Testing</p>
+                        <div class="project-date" style="opacity: 0.8; margin-top: 0;"><i class="fa-regular fa-calendar"></i> January 2024 – April 2024</div>
+                    </div>
+                </div>
+                <div class="project-right light anim-hidden fade-in delay-3">
+                    <p class="project-desc">Designed and built a Java console application to manage an entire swimming school's operations — bookings, cancellations, attendance tracking, and coach/learner reporting — across 44 lessons and 4 weeks. The project demonstrates clean OOP design, modular thinking, and disciplined testing practice.</p>
+                    <div class="card-label">KEY OUTCOMES</div>
+                    <div class="outcomes-grid">
+                        <div class="outcome-item hover-pop anim-hidden card-deal delay-1">
+                            <span class="num">1</span>
+                            <p>Integrated 6 core functional modules: Booking, Changing/Cancelling bookings, Attendance with ratings and reviews, Learner Reports, Coach Reports, and Learner Registration</p>
+                        </div>
+                        <div class="outcome-item hover-pop anim-hidden card-deal delay-2">
+                            <span class="num">2</span>
+                            <p>Developed full UML class diagrams and an object-oriented class structure applying encapsulation and modularity</p>
+                        </div>
+                        <div class="outcome-item hover-pop anim-hidden card-deal delay-3">
+                            <span class="num">3</span>
+                            <p>Created JUnit test cases for key methods across 5 Java classes, ensuring unit-level functional validation</p>
+                        </div>
+                        <div class="outcome-item hover-pop anim-hidden card-deal delay-4">
+                            <span class="num">4</span>
+                            <p>Applied version control practices using Git, with consistent commit logs documenting feature development and refactoring</p>
+                        </div>
+                    </div>
+                    <div class="card-label"><i class="fa-solid fa-code"></i> TECHNOLOGIES USED</div>
+                    <div class="tech-tags">
+                        <span class="tag-pill dark tech-shimmer anim-hidden elastic-pop delay-1">Java</span>
+                        <span class="tag-pill dark tech-shimmer anim-hidden elastic-pop delay-2">JUnit</span>
+                        <span class="tag-pill dark tech-shimmer anim-hidden elastic-pop delay-3">UML</span>
+                        <span class="tag-pill dark tech-shimmer anim-hidden elastic-pop delay-4">Git</span>
+                        <span class="tag-pill dark tech-shimmer anim-hidden elastic-pop delay-5">OOP Design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- SKILLS -->
+    <section id="skills" class="section-padding">
+        <div class="section-header">
+            <h2 class="section-title"><em>Core</em> Skills</h2>
+        </div>
+        
+        <div class="skills-grid-6">
+            <!-- Test Automation -->
+            <div class="skill-group-card card-light skill-card-hover anim-hidden wave-scale delay-1">
+                <div class="skill-group-header">
+                    <i class="fa-solid fa-robot spin-on-hover"></i>
+                    <h3>Test Automation</h3>
+                </div>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">Selenium</span><span class="skill-percent skill-percent-counter" data-target="95">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="95"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">Playwright</span><span class="skill-percent skill-percent-counter" data-target="88">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="88"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">Appium</span><span class="skill-percent skill-percent-counter" data-target="82">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="82"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">TestNG</span><span class="skill-percent skill-percent-counter" data-target="90">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="90"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">JUnit</span><span class="skill-percent skill-percent-counter" data-target="88">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="88"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">Newman/Postman</span><span class="skill-percent skill-percent-counter" data-target="85">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="85"></div></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Programming Languages -->
+            <div class="skill-group-card card-light skill-card-hover anim-hidden wave-scale delay-2">
+                <div class="skill-group-header">
+                    <i class="fa-solid fa-code spin-on-hover"></i>
+                    <h3>Programming Languages</h3>
+                </div>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">Java</span><span class="skill-percent skill-percent-counter" data-target="88">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="88"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">JavaScript</span><span class="skill-percent skill-percent-counter" data-target="85">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="85"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">Python</span><span class="skill-percent skill-percent-counter" data-target="80">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="80"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">TypeScript</span><span class="skill-percent skill-percent-counter" data-target="78">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="78"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">Node.js</span><span class="skill-percent skill-percent-counter" data-target="75">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="75"></div></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- API & Database Testing -->
+            <div class="skill-group-card card-light skill-card-hover anim-hidden wave-scale delay-3">
+                <div class="skill-group-header">
+                    <i class="fa-solid fa-database spin-on-hover"></i>
+                    <h3>API & Database Testing</h3>
+                </div>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">API Testing (REST)</span><span class="skill-percent skill-percent-counter" data-target="90">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="90"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">Postman</span><span class="skill-percent skill-percent-counter" data-target="92">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="92"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">MySQL</span><span class="skill-percent skill-percent-counter" data-target="85">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="85"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">IBM DB2</span><span class="skill-percent skill-percent-counter" data-target="80">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="80"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">Oracle SQL</span><span class="skill-percent skill-percent-counter" data-target="82">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="82"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">ETL Testing</span><span class="skill-percent skill-percent-counter" data-target="78">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="78"></div></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Frontend & Full-Stack -->
+            <div class="skill-group-card card-light skill-card-hover anim-hidden wave-scale delay-4">
+                <div class="skill-group-header">
+                    <i class="fa-solid fa-laptop-code spin-on-hover"></i>
+                    <h3>Frontend & Full-Stack</h3>
+                </div>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">React.js</span><span class="skill-percent skill-percent-counter" data-target="82">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="82"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">React Query</span><span class="skill-percent skill-percent-counter" data-target="78">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="78"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">Firebase</span><span class="skill-percent skill-percent-counter" data-target="75">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="75"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">HTML/CSS</span><span class="skill-percent skill-percent-counter" data-target="80">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="80"></div></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- DevOps & Tools -->
+            <div class="skill-group-card card-light skill-card-hover anim-hidden wave-scale delay-5">
+                <div class="skill-group-header">
+                    <i class="fa-solid fa-server spin-on-hover"></i>
+                    <h3>DevOps & Tools</h3>
+                </div>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">Git/GitHub</span><span class="skill-percent skill-percent-counter" data-target="90">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="90"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">Jenkins</span><span class="skill-percent skill-percent-counter" data-target="82">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="82"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">Azure DevOps</span><span class="skill-percent skill-percent-counter" data-target="80">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="80"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">Jira</span><span class="skill-percent skill-percent-counter" data-target="92">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="92"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">AWS</span><span class="skill-percent skill-percent-counter" data-target="75">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="75"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">Linux/Putty</span><span class="skill-percent skill-percent-counter" data-target="85">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="85"></div></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testing Practices -->
+            <div class="skill-group-card card-light skill-card-hover anim-hidden wave-scale delay-6">
+                <div class="skill-group-header">
+                    <i class="fa-solid fa-vial-circle-check spin-on-hover"></i>
+                    <h3>Testing Practices</h3>
+                </div>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">Functional Testing</span><span class="skill-percent skill-percent-counter" data-target="95">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="95"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">Regression Testing</span><span class="skill-percent skill-percent-counter" data-target="95">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="95"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">Performance (JMeter)</span><span class="skill-percent skill-percent-counter" data-target="80">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="80"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">Shift-Left Testing</span><span class="skill-percent skill-percent-counter" data-target="85">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="85"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">Black/White-box Testing</span><span class="skill-percent skill-percent-counter" data-target="88">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="88"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">Agile/Scrum QA</span><span class="skill-percent skill-percent-counter" data-target="90">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="90"></div></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Artificial Intelligence & ML -->
+            <div class="skill-group-card card-light skill-card-hover anim-hidden wave-scale delay-7">
+                <div class="skill-group-header">
+                    <i class="fa-solid fa-brain spin-on-hover"></i>
+                    <h3>Artificial Intelligence & ML</h3>
+                </div>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">Machine Learning</span><span class="skill-percent skill-percent-counter" data-target="85">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="85"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">Deep Learning</span><span class="skill-percent skill-percent-counter" data-target="80">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="80"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">Neural Networks</span><span class="skill-percent skill-percent-counter" data-target="78">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="78"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">Predictive Maintenance AI</span><span class="skill-percent skill-percent-counter" data-target="75">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="75"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">Scikit-learn</span><span class="skill-percent skill-percent-counter" data-target="80">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="80"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">TensorFlow</span><span class="skill-percent skill-percent-counter" data-target="72">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="72"></div></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Generative AI & LLM Tools -->
+            <div class="skill-group-card card-light skill-card-hover anim-hidden wave-scale delay-8">
+                <div class="skill-group-header">
+                    <i class="fa-solid fa-microchip spin-on-hover"></i>
+                    <h3>Generative AI & LLM Tools</h3>
+                </div>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">Generative AI Concepts</span><span class="skill-percent skill-percent-counter" data-target="82">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="82"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">Prompt Engineering</span><span class="skill-percent skill-percent-counter" data-target="85">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="85"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">AI-Assisted Testing</span><span class="skill-percent skill-percent-counter" data-target="88">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="88"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">LLM Integration & Testing</span><span class="skill-percent skill-percent-counter" data-target="78">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="78"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">GitHub Copilot</span><span class="skill-percent skill-percent-counter" data-target="85">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="85"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">ChatGPT / Claude APIs</span><span class="skill-percent skill-percent-counter" data-target="80">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="80"></div></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AI Testing & Governance -->
+            <div class="skill-group-card card-light skill-card-hover anim-hidden wave-scale delay-9">
+                <div class="skill-group-header">
+                    <i class="fa-solid fa-shield-halved spin-on-hover"></i>
+                    <h3>AI Testing & Governance</h3>
+                </div>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">AI Model Validation</span><span class="skill-percent skill-percent-counter" data-target="80">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="80"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">Bias & Fairness Testing</span><span class="skill-percent skill-percent-counter" data-target="75">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="75"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">AI Quality Assurance</span><span class="skill-percent skill-percent-counter" data-target="82">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="82"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span class="skill-name">Responsible AI Practices</span><span class="skill-percent skill-percent-counter" data-target="78">0%</span></div>
+                        <div class="progress-track"><div class="progress-fill" data-percentage="78"></div></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    
+    <!-- CERTIFICATIONS -->
+    <section id="certifications" class="section-padding">
+        <div class="section-header">
+            <h2 class="section-title"><em>Credentials</em> & Certifications</h2>
+        </div>
+        <div class="cert-grid">
+            <a href="ISTQB Certificate_Shamik_IVjay Nagre.pdf" target="_blank" class="cert-card-v2 light anim-hidden waterfall-drop delay-1 random-rotate">
+                <div class="cert-img-container">
+                    <img src="ISTQB Certificate_Shamik_IVjay Nagre_page-0001.jpg" alt="ISTQB Certified Tester" class="cert-image zoom-on-hover" onerror="this.style.display='none'">
+                </div>
+                <h4>ISTQB Certified Tester</h4>
+                <p class="text-sm">Foundation Level</p>
+            </a>
+            <a href="Test Automation ISTQB Shamik_Vijay_Nagre .pdf" target="_blank" class="cert-card-v2 light anim-hidden waterfall-drop delay-2 random-rotate">
+                <div class="cert-img-container">
+                    <img src="Test Automation ISTQB Shamik_Vijay_Nagre _page-0001 (1).jpg" alt="Advanced Level Test Automation" class="cert-image zoom-on-hover" onerror="this.style.display='none'">
+                </div>
+                <h4>Advanced Level Test Automation</h4>
+                <p class="text-sm">ISTQB / LambdaTest</p>
+            </a>
+            <a href="Gen-AI Certified Testing ISTQB Shamik_Vijay_Nagre .pdf" target="_blank" class="cert-card-v2 light anim-hidden waterfall-drop delay-3 random-rotate">
+                <div class="cert-img-container">
+                    <img src="Gen-AI Certified Testing ISTQB Shamik_Vijay_Nagre _page-0001.jpg" alt="Testing with Generative AI" class="cert-image zoom-on-hover" onerror="this.style.display='none'">
+                </div>
+                <h4>Advanced Level Testing with Generative AI</h4>
+                <p class="text-sm">LambdaTest</p>
+            </a>
+            <a href="LamdaTest Test Automation Professional Certificate.pdf" target="_blank" class="cert-card-v2 light anim-hidden waterfall-drop delay-4 random-rotate">
+                <div class="cert-img-container">
+                    <img src="LamdaTest Test Automation Professional Certificate_page-0001.jpg" alt="Test Automation" class="cert-image zoom-on-hover" onerror="this.style.display='none'">
+                </div>
+                <h4>Test Automation</h4>
+                <p class="text-sm">LambdaTest</p>
+            </a>
+            <a href="Azure AI-900.pdf" target="_blank" class="cert-card-v2 light anim-hidden waterfall-drop delay-5 random-rotate">
+                <div class="cert-img-container">
+                    <img src="Azure AI-900_page-0001.jpg" alt="Azure AI Fundamentals" class="cert-image zoom-on-hover" onerror="this.style.display='none'">
+                </div>
+                <h4>Azure AI Fundamentals</h4>
+                <p class="text-sm">Microsoft</p>
+            </a>
+            <a href="Nvidia Fundamentals of deep learning.pdf" target="_blank" class="cert-card-v2 light anim-hidden waterfall-drop delay-6 random-rotate">
+                <div class="cert-img-container">
+                    <img src="Nvidia Fundamentals of deep learning_page-0001.jpg" alt="Fundamentals of Deep Learning" class="cert-image zoom-on-hover" onerror="this.style.display='none'">
+                </div>
+                <h4>Fundamentals of Deep Learning</h4>
+                <p class="text-sm">NVIDIA</p>
+            </a>
+            <a href="Nvidia Applications of AI for Predictive Maintenance.pdf" target="_blank" class="cert-card-v2 light anim-hidden waterfall-drop delay-7 random-rotate">
+                <div class="cert-img-container">
+                    <img src="Nvidia Applications of AI for Predictive Maintenance_page-0001.jpg" alt="AI for Predictive Maintenance" class="cert-image zoom-on-hover" onerror="this.style.display='none'">
+                </div>
+                <h4>Applications of AI for Predictive Maintenance</h4>
+                <p class="text-sm">NVIDIA</p>
+            </a>
+            <a href="Agile Tester.pdf" target="_blank" class="cert-card-v2 light anim-hidden waterfall-drop delay-8 random-rotate">
+                <div class="cert-img-container">
+                    <img src="Agile Tester_page-0001.jpg" alt="Agile Tester" class="cert-image zoom-on-hover" onerror="this.style.display='none'">
+                </div>
+                <h4>Agile Tester</h4>
+                <p class="text-sm">Quality Kiosk Technologies</p>
+            </a>
+        </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section id="achievements" class="section-padding">
+        <div class="section-header">
+            <h2 class="section-title"><em>Achievements</em></h2>
+        </div>
+        <div class="edu-grid">
+            <div class="card-light p-0 overflow-hidden achieve-card hover-pop anim-hidden zoom-spring">
+                <div class="border-trace gold"></div>
+                <img src="QK reward.jpeg" alt="Best Performer Award" class="w-100 object-cover ken-burns" style="height: 300px; object-position: top center;">
+                <div class="padding-lg" style="padding: 2.5rem;">
+                    <span class="tag-pill dark mb-sm inline-block anim-hidden badge-pop">🏆 Professional Excellence</span>
+                    <h3>Best Performer Award (2022)</h3>
+                    <p class="mt-sm" style="font-weight: bold;">Quality Kiosk Technologies Pvt. Ltd.</p>
+                    <p class="mt-sm text-sm">Recognised as the best performer at Quality Kiosk Technologies for outstanding contributions to the QA team — delivering high-impact automation, consistent defect reduction, and going beyond the brief on every engagement.</p>
+                </div>
+            </div>
+            <div class="card-light p-0 overflow-hidden achieve-card hover-pop anim-hidden zoom-spring delay-1">
+                <div class="border-trace gold"></div>
+                <img src="grade.png" alt="Academic Excellence" class="w-100 object-cover ken-burns" style="height: 300px; object-position: top center;" onerror="this.src='pro_2.jpeg'">
+                <div class="padding-lg" style="padding: 2.5rem;">
+                    <span class="tag-pill dark mb-sm inline-block anim-hidden badge-pop">🎓 Academic Excellence</span>
+                    <h3>Prize Winner — Highest CGPA (2025)</h3>
+                    <p class="mt-sm" style="font-weight: bold;">University of Hertfordshire</p>
+                    <p class="mt-sm text-sm">Awarded the departmental prize for achieving the highest CGPA in Computer Science at the University of Hertfordshire — recognising academic rigour and consistent performance across the MSc Software Engineering programme.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section-padding">
+        <div class="section-header">
+            <h2 class="section-title"><em>Let's</em> Connect</h2>
+            <p class="section-subtitle">Ready to collaborate? Whether it's a QA challenge, an automation problem, or a role where quality is everything — let's talk.</p>
+        </div>
+        
+        <div class="contact-grid">
+            <!-- Left Form -->
+            <div class="contact-form-container card-light anim-hidden slide-angled-left">
+                <div class="card-label">SEND ME A MESSAGE</div>
+                <h3 style="font-size: 2.5rem; margin-bottom: 2rem;">Let's start a conversation.</h3>
+                <form action="mailto:shamikvijaynagre@gmail.com" method="post" enctype="text/plain" class="contact-form">
+                    <div class="form-row">
+                        <div class="form-group float-label-group">
+                            <input type="text" id="fname" required placeholder=" ">
+                            <label for="fname">FULL NAME (e.g. Shamik Nagre)</label>
+                            <div class="input-underline anim-hidden draw-line delay-1"></div>
+                        </div>
+                        <div class="form-group float-label-group">
+                            <input type="email" id="femail" required placeholder=" ">
+                            <label for="femail">EMAIL ADDRESS</label>
+                            <div class="input-underline anim-hidden draw-line delay-2"></div>
+                        </div>
+                    </div>
+                    <div class="form-group float-label-group">
+                        <input type="text" id="fsub" required placeholder=" ">
+                        <label for="fsub">SUBJECT</label>
+                        <div class="input-underline anim-hidden draw-line delay-3"></div>
+                    </div>
+                    <div class="form-group float-label-group">
+                        <textarea rows="4" id="fmsg" required placeholder=" "></textarea>
+                        <label for="fmsg">MESSAGE</label>
+                        <div class="input-underline anim-hidden draw-line delay-4"></div>
+                    </div>
+                    <button type="submit" class="btn dark send-btn" style="padding: 1.2rem 2.5rem; font-size: 1.1rem; border-radius: 50px;"><i class="fa-regular fa-paper-plane" style="margin-right: 10px;"></i> Send Message</button>
+                </form>
+            </div>
+            
+            <!-- Right Info -->
+            <div class="contact-info-container dark anim-hidden slide-angled-right">
+                <div class="card-label">CONTACT INFORMATION</div>
+                <h3 style="font-size: 2rem; margin-bottom: 1.5rem;">Prefer a direct channel?</h3>
+                <p style="margin-bottom: 2.5rem; opacity: 0.9;">I respond to most enquiries within 24 hours. Feel free to reach out via any of the channels below.</p>
+                
+                <div class="info-item hover-slide-right">
+                    <div class="info-icon"><i class="fa-regular fa-envelope"></i></div>
+                    <div class="info-text">
+                        <span>EMAIL</span>
+                        <strong>shamikvijaynagre@gmail.com</strong>
+                    </div>
+                </div>
+                <div class="info-item hover-slide-right">
+                    <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+                    <div class="info-text">
+                        <span>PHONE</span>
+                        <strong>+44 7587765283 / +91 8879048528</strong>
+                    </div>
+                </div>
+                <div class="info-item hover-slide-right">
+                    <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                    <div class="info-text">
+                        <span>LOCATION</span>
+                        <strong>London, UK / Maharashtra, India</strong>
+                    </div>
+                </div>
+                <div class="info-item hover-slide-right">
+                    <div class="info-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                    <div class="info-text">
+                        <span>LINKEDIN</span>
+                        <strong>linkedin.com/in/shamiknagre</strong>
+                    </div>
+                </div>
+                <div class="info-item hover-slide-right">
+                    <div class="info-icon"><i class="fa-brands fa-github"></i></div>
+                    <div class="info-text">
+                        <span>GITHUB</span>
+                        <strong>github.com/Shamik0221</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer dark">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem;">
+                    <div class="logo-circle" style="background-color: #C39E79; color: var(--card-dark);">SN</div>
+                    <div class="logo-text">
+                        <strong style="color: #fff; font-size: 1.5rem;">Shamik Vijay Nagre</strong>
+                        <span style="color: #C39E79; letter-spacing: 0.2em;">SOFTWARE ENGINEER</span>
+                    </div>
+                </div>
+                <p>Passionate about quality engineering — building systems that are tested as rigorously as they are built.</p>
+            </div>
+            
+            <div class="footer-links">
+                <div class="card-label">QUICK LINKS</div>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-social">
+                <div class="card-label">CONNECT</div>
+                <div class="social-icons-footer">
+                    <a href="https://github.com/Shamik0221" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/shamiknagre/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="mailto:shamikvijaynagre@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
