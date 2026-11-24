@@ -2,12 +2,11 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Typewriter Effect
     const texts = [
-        "Software Engineer.",
-        "Software Test Engineer.",
-        "Automation Test Engineer.",
-        "SDET.",
-        "Functional QA Engineer.",
-        "QA Automation Engineer."
+        "Test Analyst.",
+        "QA Engineer.",
+        "UAT Tester.",
+        "Banking & Payments Tester.",
+        "GenAI Tester."
     ];
     let count = 0;
     let index = 0;
